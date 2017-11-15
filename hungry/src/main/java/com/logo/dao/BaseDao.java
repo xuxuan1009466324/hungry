@@ -4,7 +4,11 @@ import javax.annotation.Resource;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-
+/**
+ * BaseDao
+ * @author Administrator
+ *
+ */
 public class BaseDao {
 
 	@Resource
