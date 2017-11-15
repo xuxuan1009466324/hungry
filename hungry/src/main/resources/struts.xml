@@ -7,7 +7,7 @@
      
    <package name="orderStatus" extends="struts-default">
    	<action name="index" class="com.logo.action.OrderStatusAction" method="toIndex">
-   		<result>/WEB-INF/jsp/homePage.jsp</result>
+   		<result>/WEB-INF/jsp/index.jsp</result>
    	</action>
    </package>
    
