@@ -25,24 +25,34 @@ public class Order {
 	private String cancellationOrderReason;
 	private Long sellerService;
 	private Integer roomSpeed;
+	private Integer havePicture;
 	
 	private User user;
 	private Seller seller;
 	private OrderStatus orderStatus;
-	private Paymentmethod paymentmethod;
-	private Cancellationorder cancellationorder;
+	private PaymentMethod paymentMethod;
+	private CancellationOrder cancellationOrder;
 
-	public Cancellationorder getCancellationorder() {
-		return cancellationorder;
+	
+	
+	public Integer getHavePicture() {
+		return havePicture;
 	}
-	public void setCancellationorder(Cancellationorder cancellationorder) {
-		this.cancellationorder = cancellationorder;
+	public void setHavePicture(Integer havePicture) {
+		this.havePicture = havePicture;
 	}
-	public Paymentmethod getPaymentmethod() {
-		return paymentmethod;
+	
+	public CancellationOrder getCancellationOrder() {
+		return cancellationOrder;
 	}
-	public void setPaymentmethod(Paymentmethod paymentmethod) {
-		this.paymentmethod = paymentmethod;
+	public void setCancellationOrder(CancellationOrder cancellationOrder) {
+		this.cancellationOrder = cancellationOrder;
+	}
+	public PaymentMethod getPaymentMethod() {
+		return paymentMethod;
+	}
+	public void setPaymentMethod(PaymentMethod paymentMethod) {
+		this.paymentMethod = paymentMethod;
 	}
 	public OrderStatus getOrderStatus() {
 		return orderStatus;

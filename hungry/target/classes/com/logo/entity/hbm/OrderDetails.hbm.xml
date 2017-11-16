@@ -13,7 +13,7 @@
 		<many-to-one name="order" class="com.logo.entity.Order" column="orderId" unique="true"></many-to-one>
 		<property name="totalPrice" column="totalPrice"></property>
 		<!-- <property name="satisfactionDegreeId" column="satisfactionDegreeId"></property> -->
-		<many-to-one name="satisfactiondegree" class="com.logo.entity.Satisfactiondegree" column="satisfactionDegreeId" unique="true"></many-to-one>
+		<many-to-one name="satisfactionDegree" class="com.logo.entity.SatisfactionDegree" column="satisfactionDegreeId" unique="true"></many-to-one>
 		<property name="evaluationReasons" column="evaluationReasons"></property>
 	</class>
 </hibernate-mapping>

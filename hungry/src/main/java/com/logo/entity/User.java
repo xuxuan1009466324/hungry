@@ -10,7 +10,16 @@ public class User {
 	private String email;
 	private String password;
 	private Date registrationTime;
+	private Integer havePicture;
 	private Integer status;
+	
+	public Integer getHavePicture() {
+		return havePicture;
+	}
+	public void setHavePicture(Integer havePicture) {
+		this.havePicture = havePicture;
+	}
+	
 	public Long getuId() {
 		return uId;
 	}

@@ -23,12 +23,13 @@
 		<property name="distributionAgent" column="distributionAgent"></property>
 		<property name="detailedAddress" column="detailedAddress"></property>
 		<!-- <property name="paymentMethodId" column="paymentMethodId"></property> -->
-		<many-to-one name="paymentmethod"  class="com.logo.entity.Paymentmethod" column="paymentMethodId" unique="true"></many-to-one>
+		<many-to-one name="paymentMethod"  class="com.logo.entity.PaymentMethod" column="paymentMethodId" unique="true"></many-to-one>
 		<property name="serviceTime" column="serviceTime"></property>
 		<!-- <property name="cancellationOrderId" column="cancellationOrderId"></property> -->
-		<many-to-one name="cancellationorder" class="com.logo.entity.Cancellationorder" column="cancellationOrderId" unique="true"></many-to-one>
+		<many-to-one name="cancellationorder" class="com.logo.entity.CancellationOrder" column="cancellationOrderId" unique="true"></many-to-one>
 		<property name="cancellationOrderReason" column="cancellationOrderReason"></property>
 		<property name="sellerService" column="sellerService"></property>
 		<property name="roomSpeed" column="roomSpeed"></property>
+		<property name="havePicture" column="havePicture"></property>
 	</class>
 </hibernate-mapping>

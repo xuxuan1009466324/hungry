@@ -11,6 +11,7 @@
 	<property name="email" column="email"></property>
 	<property name="password" column="password"></property>
 	<property name="registrationTime" column="registrationTime"></property>
+	<property name="havePicture" column="havePicture"></property>
 	<property name="status" column="status"></property>
 </class>
 </hibernate-mapping>

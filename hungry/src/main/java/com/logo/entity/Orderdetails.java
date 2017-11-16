@@ -1,8 +1,8 @@
 package com.logo.entity;
 
-import com.sun.xml.internal.fastinfoset.algorithm.IntegerEncodingAlgorithm;
 
 public class Orderdetails {
+	
 	private Long orderDetailsId;
 	//private Long foodId;
 	private Integer number;
@@ -13,7 +13,7 @@ public class Orderdetails {
 	private String evaluationReasons;
 	
 	private Food food;
-	private Satisfactiondegree satisfactiondegree;
+	private SatisfactionDegree satisfactionDegree;
 	private Order order;
 	
 	public Order getOrder() {
@@ -22,11 +22,11 @@ public class Orderdetails {
 	public void setOrder(Order order) {
 		this.order = order;
 	}
-	public Satisfactiondegree getSatisfactiondegree() {
-		return satisfactiondegree;
+	public SatisfactionDegree getSatisfactionDegree() {
+		return satisfactionDegree;
 	}
-	public void setSatisfactiondegree(Satisfactiondegree satisfactiondegree) {
-		this.satisfactiondegree = satisfactiondegree;
+	public void setSatisfactionDegree(SatisfactionDegree satisfactionDegree) {
+		this.satisfactionDegree = satisfactionDegree;
 	}
 	public Food getFood() {
 		return food;

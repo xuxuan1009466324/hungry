@@ -1,6 +1,6 @@
 package com.logo.entity;
 
-public class Paymentmethod {
+public class PaymentMethod {
 	private Long paymentMethodId;
 	private String cancellationOrderName;
 	public Long getPaymentMethodId() {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "hibernate-mapping-3.0.dtd" >
 <hibernate-mapping package="com.logo.entity">
-	<class name="Paymentmethod" table="tb_paymentmethod">
+	<class name="PaymentMethod" table="tb_paymentmethod">
 		<id name="paymentMethodId" column="paymentMethodId">
 			<generator class="native"></generator>
 		</id>
